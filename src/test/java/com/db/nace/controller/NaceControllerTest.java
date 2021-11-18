@@ -39,5 +39,4 @@ public class NaceControllerTest {
 		ResponseEntity<Activities> addNaceDetails = mockNaceController.addNaceDetails(TestHelper.getActivities());
 		assertEquals("This status should be equal ", addNaceDetails.getStatusCode(), HttpStatus.CREATED);
 	}
-
 }
